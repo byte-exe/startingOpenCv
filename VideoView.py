@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture("SourceFile/yourVideo")
+cap = cv2.VideoCapture(1)
 
 while True:
     success, img = cap.read()

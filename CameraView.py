@@ -1,6 +1,7 @@
 import cv2
+import numpy
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 cap.set(3,640)
 cap.set(4,480)
 cap.set(10,100)
